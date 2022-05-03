@@ -21,7 +21,7 @@ go mod init github.com/sayedh/cli-reminder-project
 go mod tidy
 ```
 
-* Specify the reminder time and messaged
+* Specify the reminder time and message
 ```
 go run main.go 15:56 hey how are you
 ```
