@@ -17,12 +17,11 @@ This is a project built with Golang. A simple notification tool where one can se
 ```
 git clone https://github.com/sayedh/cli-reminder-project
 cd cli-reminder-project
-go run main.go
+go mod init github.com/sayedh/cli-reminder-project
+go mod tidy
 ```
 
-* Specify the reminder time and message
+* Specify the reminder time and messaged
 ```
-go run main.go
-domain,hasMX,hasSPF,sprRecord,hasDMARC,dmarcRecord
-outlook.com  
+go run main.go 15:56 hey how are you
 ```
